@@ -6,33 +6,87 @@
     <title>Robotics Club</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             text-align: center;
-            margin: 50px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
         }
         h1 {
-            color: #333;
+            color: #222;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #555;
+            font-size: 1.2em;
+        }
+        .section {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .project-list, .event-list {
+            list-style: none;
+            padding: 0;
+        }
+        .project-list li {
+            background: #fff;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to the Robotics Club</h1>
-    <p>Innovating with technology, building the future.</p>
 
-    <h2>About Us</h2>
-    <p>We are a group of robotics enthusiasts who love to build, code, and compete in robotics challenges.</p>
+    <div class="container">
+        <h1>🤖 Welcome to the Robotics Club</h1>
+        <p>Innovating with technology, building the future.</p>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>🚀 Autonomous Drone Navigation</li>
-        <li>🤖 AI-Powered Robot Arm</li>
-        <li>⚔️ Battle Bots Competition</li>
-    </ul>
+        <div class="section">
+            <h2>About Us</h2>
+            <p>We are a group of robotics enthusiasts who love to build, code, and compete in robotics challenges.</p>
+        </div>
 
-    <h2>Events</h2>
-    <p>📅 Next event: Robotics Hackathon - March 25th, 2025</p>
+        <div class="section">
+            <h2>🚀 Projects</h2>
+            <ul class="project-list">
+                <li>🛰️ Autonomous Drone Navigation</li>
+                <li>🤖 AI-Powered Robot Arm</li>
+                <li>⚔️ Battle Bots Competition</li>
+            </ul>
+        </div>
 
-    <h2>Contact Us</h2>
-    <p>Email: roboticsclub@example.com</p>
+        <div class="section">
+            <h2>📅 Events</h2>
+            <p>Next event: <strong>Robotics Hackathon - March 25th, 2025</strong></p>
+        </div>
+
+        <div class="section">
+            <h2>📧 Contact Us</h2>
+            <p>Email: roboticsclub@example.com</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Robotics Club | Powered by GitHub Pages</p>
+    </div>
+
 </body>
 </html>
